@@ -7,11 +7,6 @@ rosppm is a ROS package which enables ROS to interface with an mcu that generate
 - Receive stick values from the transmitter coming out of the trainer port
 - Arm the autopilot using usb2ppm_ros (Work in progress)
 
-## Hardware
-Currently tested transmitters follow as below, but in principle will be compatible with most ppm compatible transmitters when followed proper wiring.
-
-More instructions are presented in the following [link](https://404warehouse.net/2016/07/13/rosppm-ros-package-for-accessing-rc-transmitters/)
-
 ## Running the code
 
 ```
@@ -56,7 +51,7 @@ Install rosppm package by placing the code in the source folder in catkin_ws
 
 ```
 cd <catkin_workspace>/src
-git clone https://github.com/Jaeyoung-Lim/rosppm.git
+git clone https://github.com/pramodsandaruwan/rosppm.git
 cd <catkin_workspace>
 catkin build  rosppm
 ```
